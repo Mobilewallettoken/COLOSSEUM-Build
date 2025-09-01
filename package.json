@@ -1,0 +1,47 @@
+{
+    "name": "template-server",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./src/bin/www",
+        "dev": "nodemon",
+        "lint": "eslint src/**",
+        "lint:fix": "eslint --fix"
+    },
+    "dependencies": {
+        "@project-serum/anchor": "^0.26.0",
+        "@solana/spl-token": "^0.4.9",
+        "@solana/web3.js": "^1.95.4",
+        "axios": "^1.4.0",
+        "bcrypt": "^5.1.0",
+        "bip32": "^5.0.0-rc.0",
+        "bip39": "^3.1.0",
+        "bitcoinjs-lib": "^5.2.0",
+        "bs58": "^6.0.0",
+        "cookie-parser": "~1.4.4",
+        "crypto": "^1.0.1",
+        "debug": "~2.6.9",
+        "dotenv": "^16.3.1",
+        "ethers": "5.7.2",
+        "express": "~4.16.1",
+        "joi": "^17.9.2",
+        "jsonwebtoken": "^9.0.0",
+        "lodash": "^4.17.21",
+        "mongoose": "^7.3.1",
+        "morgan": "~1.9.1",
+        "node-fetch": "2",
+        "nodemon": "^3.1.7",
+        "redis": "^4.6.7",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.1",
+        "tiny-secp256k1": "^2.2.3",
+        "web3": "^4.16.0",
+        "yesno": "^0.4.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.29.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.8.1"
+    }
+}
